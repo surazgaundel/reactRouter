@@ -67,8 +67,16 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+nav{
+  background-color: rgb(45, 16, 16);
+  padding:1rem;
+  margin:0.5rem;
+}
 
+nav a{
+  padding:0.6em;
+}
 nav a.active {
   font-weight: bold;
-  text-decoration: underline;
+  color:white
 }
